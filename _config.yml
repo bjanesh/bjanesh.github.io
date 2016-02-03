@@ -11,7 +11,7 @@ permalink:           pretty
 title:               Bill Janesh
 tagline:             bjanesh.github.io
 url:                 http://bjanesh.github.io/
-paginate:            1
+paginate:            
 baseurl:             "http://bjanesh.github.io/"
 
 # Assets
