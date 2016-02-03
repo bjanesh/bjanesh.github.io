@@ -10,7 +10,8 @@ permalink:           pretty
 # Setup
 title:               Bill Janesh
 tagline:             bjanesh.github.io
-url:                 http://bjanesh.github.io
+# url:                 http://bjanesh.github.io
+url:
 paginate:            
 baseurl:             ""
 
