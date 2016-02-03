@@ -12,7 +12,7 @@ title:               Bill Janesh
 tagline:             bjanesh.github.io
 url:                 http://bjanesh.github.io
 paginate:            
-baseurl:             "http://bjanesh.github.io/"
+baseurl:             ""
 
 # Assets
 #
