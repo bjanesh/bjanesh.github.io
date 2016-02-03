@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Bill Janesh</title>
+ <link href="http://bjanesh.github.iohttp://bjanesh.github.io/poole//atom.xml" rel="self"/>
+ <link href="http://bjanesh.github.iohttp://bjanesh.github.io/poole//"/>
+ <updated>2016-02-03T14:11:10-05:00</updated>
+ <id>http://bjanesh.github.io</id>
+ <author>
+   <name>Bill Janesh</name>
+   <email>wjanesh@indiana.edu</email>
+ </author>
+
+ 
+
+</feed>

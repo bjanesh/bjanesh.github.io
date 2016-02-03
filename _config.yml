@@ -1,0 +1,33 @@
+# Dependencies
+gems:                [jekyll-paginate]
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+#relative_permalinks: true
+
+# Setup
+title:               Bill Janesh
+tagline:             bjanesh.github.io
+url:                 http://bjanesh.github.io
+paginate:            1
+baseurl:             "http://bjanesh.github.io/poole/"
+
+# Assets
+#
+# We specify the directory for Jekyll so we can use @imports.
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Bill Janesh
+  url:               http://bjanesh.github.io
+  email:             wjanesh@indiana.edu
+
+# Custom vars
+version:             2.0.0
+github:
+  repo:              https://github.com/poole/poole
