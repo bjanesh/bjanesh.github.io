@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Bill Janesh</title>
- <link href="http://bjanesh.github.iohttp://bjanesh.github.io/poole//atom.xml" rel="self"/>
- <link href="http://bjanesh.github.iohttp://bjanesh.github.io/poole//"/>
- <updated>2016-02-03T14:11:10-05:00</updated>
- <id>http://bjanesh.github.io</id>
+ <link href="http://bjanesh.github.io/http://bjanesh.github.io//atom.xml" rel="self"/>
+ <link href="http://bjanesh.github.io/http://bjanesh.github.io//"/>
+ <updated>2016-02-03T14:27:57-05:00</updated>
+ <id>http://bjanesh.github.io/</id>
  <author>
    <name>Bill Janesh</name>
    <email>wjanesh@indiana.edu</email>
