@@ -1,6 +1,3 @@
-# Dependencies
-gems:                [jekyll-paginate]
-
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
@@ -12,7 +9,6 @@ title:               Bill Janesh
 tagline:             bjanesh.github.io
 # url:                 http://bjanesh.github.io
 url:
-paginate:            
 baseurl:             ""
 
 # Assets
