@@ -224,8 +224,8 @@ with open('uchvc-db.md', 'w+') as f:
     print >> f, "|Name|Season|RA|Dec|"
     print >> f, "|---:|------|---|---|"
     for i in range(len(name)):
-        print >> f, '|['+altname[i]+'](uchvc-db/'+altname[i].lower()+')|'+seas[i]+'|'+ra[i]+'|'+dec[i]+'|'
-        with open(altname[i].lower()+'.md','w+') as md:
+        print >> f, '|['+altname[i]+']('+altname[i].lower()+')|'+seas[i]+'|'+ra[i]+'|'+dec[i]+'|'
+        with open('uchvc-db/'+altname[i].lower()+'.md','w+') as md:
             print >> md, "---"
             print >> md, "layout: page"
             print >> md, "title: ", altname[i]
