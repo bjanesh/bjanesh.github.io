@@ -212,7 +212,7 @@ ax1.set_xlabel('log $\\bar{N}_{HI}$')
 ax1.set_ylabel('log $M_{HI}$')
 ax1.legend(handles=[pts, samp, red, gold, black, leop, leot], loc=2, fontsize='x-small', scatterpoints=1)
 
-plt.savefig('media/props.png')
+plt.savefig('uchvc-db/props.png')
 
 # make a front page with a list of all the objects
 with open('uchvc-db.md', 'w+') as f:
@@ -220,10 +220,12 @@ with open('uchvc-db.md', 'w+') as f:
     print >> f, "layout: page"
     print >> f, "title: uchvc-db"
     print >> f, "--- "
-    print >> f, "![props](media/props.png)"
+    print >> f, "![props](props.png)"
+    print >> f, "|Name|Season|RA|Dec|"
+    print >> f, "|---:|------|---|---|"
     for i in range(len(name)):
-        print >> f, '['+altname[i]+'](uchvc-db/'+altname[i].lower()+'.md) | '+seas[i],ra[i],dec[i],'\n\n'
-        with open('uchvc-db/'+altname[i].lower()+'.md','w+') as md:
+        print >> f, '|['+altname[i]+'](uchvc-db/'+altname[i].lower()+')|'+seas[i]+'|'+ra[i]+'|'+dec[i]+'|'
+        with open(altname[i].lower()+'.md','w+') as md:
             print >> md, "---"
             print >> md, "layout: page"
             print >> md, "title: ", altname[i]
