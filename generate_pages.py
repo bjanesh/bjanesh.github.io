@@ -230,15 +230,15 @@ with open('uchvc-db.md', 'w+') as f:
             print >> md, "layout: page"
             print >> md, "title: ", altname[i]
             print >> md, "--- "
-            print >> md, "alt id:", name[i]
-            print >> md, "ra:", ra [i]
-            print >> md, "dec:", dec[i]
-            print >> md, "cz:", cz[i]
-            print >> md, "w50:", w50[i]
-            print >> md, "abar:", abar[i]
-            print >> md, "m_hi:", m_hi[i]
-            print >> md, "n_hi:", n_hi[i]
-            print >> md, "months observable:", mon[i]
+            print >> md, "|alt id|"+name[i]+'|'
+            print >> md, "|ra|"+ra [i]+'|'
+            print >> md, "|dec|"+dec[i]+'|'
+            print >> md, "|cz|"+repr(cz[i])+'|'
+            print >> md, "|w50|"+repr(w50[i])+'|'
+            print >> md, "|abar|"+repr(abar[i])+'|'
+            print >> md, "|m_hi|"+repr(m_hi[i])+'|'
+            print >> md, "|n_hi|"+repr(n_hi[i])+'|'
+            # print >> md, "|months observable|"+mon[i]+'|'
 # print n_mhi
 # print n_cz
 # print n_w50
