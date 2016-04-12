@@ -225,9 +225,9 @@ with open('uchvc-db.md', 'w+') as f:
     print >> f, "|---:|------|---|---|\n"
     for i in range(len(name)):
         if wiyn_obs[i]=='completed':
-            print >> f, '|['+altname[i]+']('+altname[i].lower()+')|'+seas[i]+'|`'+wiyn_obs+'`|'+ra[i]+'|'+dec[i]+'|'
+            print >> f, '|['+altname[i]+']('+altname[i].lower()+')|'+seas[i]+'|`'+wiyn_obs[i]+'`|'+ra[i]+'|'+dec[i]+'|'
         else:
-            print >> f, '|['+altname[i]+']('+altname[i].lower()+')|'+seas[i]+'|'+repr(wiyn_obs)+'|'+ra[i]+'|'+dec[i]+'|'    
+            print >> f, '|['+altname[i]+']('+altname[i].lower()+')|'+seas[i]+'|'+wiyn_obs[i]+'|'+ra[i]+'|'+dec[i]+'|'    
         with open('uchvc-db/'+altname[i].lower()+'.md','w+') as md:
             print >> md, "---"
             print >> md, "layout: page"
