@@ -3,102 +3,300 @@ layout: page
 title: uchvc-db
 --- 
 ![props](media/props.png)
-[AGC102992](uchvc-db/agc102992)
-[AGC102994](uchvc-db/agc102994)
-[AGC103417](uchvc-db/agc103417)
-[AGC113843](uchvc-db/agc113843)
-[AGC114116](uchvc-db/agc114116)
-[AGC114117](uchvc-db/agc114117)
-[AGC114574](uchvc-db/agc114574)
-[AGC122834](uchvc-db/agc122834)
-[AGC122835](uchvc-db/agc122835)
-[AGC122836](uchvc-db/agc122836)
-[AGC174540](uchvc-db/agc174540)
-[AGC174763](uchvc-db/agc174763)
-[AGC174764](uchvc-db/agc174764)
-[AGC189054](uchvc-db/agc189054)
-[AGC198511](uchvc-db/agc198511)
-[AGC198606](uchvc-db/agc198606)
-[AGC208315](uchvc-db/agc208315)
-[AGC208524](uchvc-db/agc208524)
-[AGC215417](uchvc-db/agc215417)
-[AGC219214](uchvc-db/agc219214)
-[AGC219274](uchvc-db/agc219274)
-[AGC219276](uchvc-db/agc219276)
-[AGC219278](uchvc-db/agc219278)
-[AGC219279](uchvc-db/agc219279)
-[AGC226067](uchvc-db/agc226067)
-[AGC226165](uchvc-db/agc226165)
-[AGC226170](uchvc-db/agc226170)
-[AGC227977](uchvc-db/agc227977)
-[AGC227987](uchvc-db/agc227987)
-[AGC227988](uchvc-db/agc227988)
-[AGC229326](uchvc-db/agc229326)
-[AGC229327](uchvc-db/agc229327)
-[AGC229344](uchvc-db/agc229344)
-[AGC232765](uchvc-db/agc232765)
-[AGC233763](uchvc-db/agc233763)
-[AGC233830](uchvc-db/agc233830)
-[AGC233831](uchvc-db/agc233831)
-[AGC238626](uchvc-db/agc238626)
-[AGC238713](uchvc-db/agc238713)
-[AGC249000](uchvc-db/agc249000)
-[AGC249282](uchvc-db/agc249282)
-[AGC249283](uchvc-db/agc249283)
-[AGC249320](uchvc-db/agc249320)
-[AGC249323](uchvc-db/agc249323)
-[AGC249324](uchvc-db/agc249324)
-[AGC249326](uchvc-db/agc249326)
-[AGC249393](uchvc-db/agc249393)
-[AGC249441](uchvc-db/agc249441)
-[AGC249525](uchvc-db/agc249525)
-[AGC257956](uchvc-db/agc257956)
-[AGC257994](uchvc-db/agc257994)
-[AGC258237](uchvc-db/agc258237)
-[AGC258241](uchvc-db/agc258241)
-[AGC258242](uchvc-db/agc258242)
-[AGC258459](uchvc-db/agc258459)
-[AGC268067](uchvc-db/agc268067)
-[AGC268069](uchvc-db/agc268069)
-[AGC268070](uchvc-db/agc268070)
-[AGC268071](uchvc-db/agc268071)
-[AGC268072](uchvc-db/agc268072)
-[AGC268074](uchvc-db/agc268074)
-[AGC268213](uchvc-db/agc268213)
-[AGC310851](uchvc-db/agc310851)
-[AGC310865](uchvc-db/agc310865)
-[AGC321318](uchvc-db/agc321318)
-[AGC321320](uchvc-db/agc321320)
-[AGC321351](uchvc-db/agc321351)
-[AGC321455](uchvc-db/agc321455)
-[AGC321457](uchvc-db/agc321457)
-[AGC333494](uchvc-db/agc333494)
-[AGC333604](uchvc-db/agc333604)
-[AGC333613](uchvc-db/agc333613)
-[AGC334256](uchvc-db/agc334256)
-[AGC334257](uchvc-db/agc334257)
-[AGC501816](uchvc-db/agc501816)
-[AGC749140](uchvc-db/agc749140)
-[AGC749141](uchvc-db/agc749141)
-[AGC749166](uchvc-db/agc749166)
-[HI0106+12](uchvc-db/hi0106+12)
-[HI0126+05](uchvc-db/hi0126+05)
-[HI0810+29](uchvc-db/hi0810+29)
-[HI0932+24](uchvc-db/hi0932+24)
-[HI0959+19](uchvc-db/hi0959+19)
-[HI1023+21](uchvc-db/hi1023+21)
-[HI1037+21](uchvc-db/hi1037+21)
-[HI1050+24](uchvc-db/hi1050+24)
-[HI1108+21](uchvc-db/hi1108+21)
-[HI1125+31](uchvc-db/hi1125+31)
-[HI1134+20](uchvc-db/hi1134+20)
-[HI1151+20](uchvc-db/hi1151+20)
-[HI1322+14](uchvc-db/hi1322+14)
-[HI1436+17](uchvc-db/hi1436+17)
-[HI1502+19](uchvc-db/hi1502+19)
-[HI1523+17](uchvc-db/hi1523+17)
-[HI2033+18](uchvc-db/hi2033+18)
-[HI2238+02](uchvc-db/hi2238+02)
-[HI2314+03](uchvc-db/hi2314+03)
-[HI2323+27](uchvc-db/hi2323+27)
-[HI2355+25](uchvc-db/hi2355+25)
+[AGC102992](uchvc-db/agc102992.md) | Fall 00h52m06.2s +29d12m04s 
+
+
+[AGC102994](uchvc-db/agc102994.md) | Fall 00h54m31.6s +29d24m02s 
+
+
+[AGC103417](uchvc-db/agc103417.md) | Fall 00h05m54.3s +31d20m14s 
+
+
+[AGC113843](uchvc-db/agc113843.md) | Fall 01h10m35.2s +25d06m01s 
+
+
+[AGC114116](uchvc-db/agc114116.md) | Fall 01h49m52.1s +29d26m00s 
+
+
+[AGC114117](uchvc-db/agc114117.md) | Fall 01h50m31.4s +28d22m59s 
+
+
+[AGC114574](uchvc-db/agc114574.md) | Fall 01h17m03.4s +15d55m48s 
+
+
+[AGC122834](uchvc-db/agc122834.md) | Fall 02h03m48.8s +29d13m13s 
+
+
+[AGC122835](uchvc-db/agc122835.md) | Fall 02h05m35.5s +29d13m56s 
+
+
+[AGC122836](uchvc-db/agc122836.md) | Fall 02h52m29.7s +26d26m30s 
+
+
+[AGC174540](uchvc-db/agc174540.md) | Fall 07h45m59.9s +14d58m37s 
+
+
+[AGC174763](uchvc-db/agc174763.md) | Fall 07h55m27.1s +24d41m43s 
+
+
+[AGC174764](uchvc-db/agc174764.md) | Fall 07h56m14.8s +25d09m00s 
+
+
+[AGC189054](uchvc-db/agc189054.md) | Fall 08h25m46.7s +25d11m28s 
+
+
+[AGC198511](uchvc-db/agc198511.md) | Fall 09h30m13.2s +24d12m17s 
+
+
+[AGC198606](uchvc-db/agc198606.md) | Fall 09h30m05.5s +16d39m03s 
+
+
+[AGC208315](uchvc-db/agc208315.md) | Spring 10h27m01.1s +08d47m08s 
+
+
+[AGC208524](uchvc-db/agc208524.md) | Spring 10h47m02.5s +01d46m31s 
+
+
+[AGC215417](uchvc-db/agc215417.md) | Spring 11h40m08.1s +15d06m44s 
+
+
+[AGC219214](uchvc-db/agc219214.md) | Spring 11h09m29.8s +05d26m01s 
+
+
+[AGC219274](uchvc-db/agc219274.md) | Spring 11h21m19.6s +06d21m32s 
+
+
+[AGC219276](uchvc-db/agc219276.md) | Spring 11h26m24.8s +07d39m15s 
+
+
+[AGC219278](uchvc-db/agc219278.md) | Spring 11h28m55.6s +06d25m29s 
+
+
+[AGC219279](uchvc-db/agc219279.md) | Spring 11h29m28.6s +06d09m23s 
+
+
+[AGC226067](uchvc-db/agc226067.md) | Spring 12h21m54.7s +13d28m10s 
+
+
+[AGC226165](uchvc-db/agc226165.md) | Spring 12h34m40.2s +08d24m08s 
+
+
+[AGC226170](uchvc-db/agc226170.md) | Spring 12h42m04.6s +09d54m05s 
+
+
+[AGC227977](uchvc-db/agc227977.md) | Spring 12h09m20.0s +04d23m30s 
+
+
+[AGC227987](uchvc-db/agc227987.md) | Spring 12h45m29.8s +05d20m23s 
+
+
+[AGC227988](uchvc-db/agc227988.md) | Spring 12h46m22.9s +04d48m42s 
+
+
+[AGC229326](uchvc-db/agc229326.md) | Spring 12h27m34.7s +17d38m23s 
+
+
+[AGC229327](uchvc-db/agc229327.md) | Spring 12h32m31.6s +17d57m21s 
+
+
+[AGC229344](uchvc-db/agc229344.md) | Spring 12h37m58.5s +07d48m49s 
+
+
+[AGC232765](uchvc-db/agc232765.md) | Spring 13h23m09.4s +15d11m17s 
+
+
+[AGC233763](uchvc-db/agc233763.md) | Spring 13h12m42.3s +13d30m46s 
+
+
+[AGC233830](uchvc-db/agc233830.md) | Spring 13h13m21.5s +10d12m57s 
+
+
+[AGC233831](uchvc-db/agc233831.md) | Spring 13h22m41.6s +11d52m31s 
+
+
+[AGC238626](uchvc-db/agc238626.md) | Spring 13h03m51.1s +12d12m23s 
+
+
+[AGC238713](uchvc-db/agc238713.md) | Spring 13h30m43.8s +04d13m38s 
+
+
+[AGC249000](uchvc-db/agc249000.md) | Spring 14h07m21.7s +15d45m26s 
+
+
+[AGC249282](uchvc-db/agc249282.md) | Spring 14h23m21.2s +04d34m37s 
+
+
+[AGC249283](uchvc-db/agc249283.md) | Spring 14h23m57.7s +05d23m40s 
+
+
+[AGC249320](uchvc-db/agc249320.md) | Spring 14h06m00.0s +06d07m36s 
+
+
+[AGC249323](uchvc-db/agc249323.md) | Spring 14h19m48.6s +07d11m15s 
+
+
+[AGC249324](uchvc-db/agc249324.md) | Spring 14h20m18.0s +07d23m33s 
+
+
+[AGC249326](uchvc-db/agc249326.md) | Spring 14h31m58.8s +06d35m20s 
+
+
+[AGC249393](uchvc-db/agc249393.md) | Spring 14h10m58.1s +24d12m04s 
+
+
+[AGC249441](uchvc-db/agc249441.md) | Spring 14h07m00.8s +00d13m23s 
+
+
+[AGC249525](uchvc-db/agc249525.md) | Spring 14h17m50.1s +17d32m52s 
+
+
+[AGC257956](uchvc-db/agc257956.md) | Spring 15h55m07.5s +14d29m29s 
+
+
+[AGC257994](uchvc-db/agc257994.md) | Spring 15h53m54.0s +14d41m48s 
+
+
+[AGC258237](uchvc-db/agc258237.md) | Spring 15h07m23.0s +11d32m56s 
+
+
+[AGC258241](uchvc-db/agc258241.md) | Spring 15h08m24.4s +11d24m22s 
+
+
+[AGC258242](uchvc-db/agc258242.md) | Spring 15h10m00.6s +11d11m27s 
+
+
+[AGC258459](uchvc-db/agc258459.md) | Spring 15h04m41.3s +06d12m59s 
+
+
+[AGC268067](uchvc-db/agc268067.md) | Spring 16h05m29.4s +16d09m12s 
+
+
+[AGC268069](uchvc-db/agc268069.md) | Spring 16h05m32.6s +14d59m20s 
+
+
+[AGC268070](uchvc-db/agc268070.md) | Spring 16h07m07.0s +15d08m31s 
+
+
+[AGC268071](uchvc-db/agc268071.md) | Spring 16h12m36.8s +14d12m26s 
+
+
+[AGC268072](uchvc-db/agc268072.md) | Spring 16h17m45.3s +14d10m36s 
+
+
+[AGC268074](uchvc-db/agc268074.md) | Spring 16h24m43.4s +12d44m12s 
+
+
+[AGC268213](uchvc-db/agc268213.md) | Spring 16h22m35.7s +05d08m48s 
+
+
+[AGC310851](uchvc-db/agc310851.md) | Fall 21h54m06.2s +31d12m49s 
+
+
+[AGC310865](uchvc-db/agc310865.md) | Fall 21h58m02.9s +28d37m35s 
+
+
+[AGC321318](uchvc-db/agc321318.md) | Fall 22h01m00.7s +24d44m04s 
+
+
+[AGC321320](uchvc-db/agc321320.md) | Fall 22h12m38.6s +24d43m11s 
+
+
+[AGC321351](uchvc-db/agc321351.md) | Fall 22h21m34.4s +24d36m38s 
+
+
+[AGC321455](uchvc-db/agc321455.md) | Fall 22h11m21.8s +29d54m02s 
+
+
+[AGC321457](uchvc-db/agc321457.md) | Fall 22h38m23.4s +31d52m57s 
+
+
+[AGC333494](uchvc-db/agc333494.md) | Fall 23h57m02.1s +29d48m46s 
+
+
+[AGC333604](uchvc-db/agc333604.md) | Fall 23h11m23.2s +27d56m45s 
+
+
+[AGC333613](uchvc-db/agc333613.md) | Fall 23h56m58.8s +29d32m35s 
+
+
+[AGC334256](uchvc-db/agc334256.md) | Fall 23h00m56.4s +15d20m14s 
+
+
+[AGC334257](uchvc-db/agc334257.md) | Fall 23h02m11.3s +16d00m48s 
+
+
+[AGC501816](uchvc-db/agc501816.md) | Spring 10h05m19.4s -00d02m26s 
+
+
+[AGC749140](uchvc-db/agc749140.md) | Fall 00h51m16.4s +15d11m11s 
+
+
+[AGC749141](uchvc-db/agc749141.md) | Fall 01h02m37.8s +16d07m52s 
+
+
+[AGC749166](uchvc-db/agc749166.md) | Fall 01h59m58.7s +16d05m25s 
+
+
+[HI0106+12](uchvc-db/hi0106+12.md) | Fall 01h06m00.7s +12d26m57s 
+
+
+[HI0126+05](uchvc-db/hi0126+05.md) | Fall 01h26m21.5s +05d23m08s 
+
+
+[HI0810+29](uchvc-db/hi0810+29.md) | Fall 08h10m07.6s +28d58m35s 
+
+
+[HI0932+24](uchvc-db/hi0932+24.md) | Fall 09h32m08.0s +23d37m52s 
+
+
+[HI0959+19](uchvc-db/hi0959+19.md) | Spring 09h59m11.8s +18d55m35s 
+
+
+[HI1023+21](uchvc-db/hi1023+21.md) | Spring 10h23m09.0s +20d40m59s 
+
+
+[HI1037+21](uchvc-db/hi1037+21.md) | Spring 10h37m06.6s +20d30m58s 
+
+
+[HI1050+24](uchvc-db/hi1050+24.md) | Spring 10h49m32.4s +23d56m38s 
+
+
+[HI1108+21](uchvc-db/hi1108+21.md) | Spring 11h08m04.7s +21d14m14s 
+
+
+[HI1125+31](uchvc-db/hi1125+31.md) | Spring 11h25m08.5s +30d31m30s 
+
+
+[HI1134+20](uchvc-db/hi1134+20.md) | Spring 11h34m29.7s +20d12m49s 
+
+
+[HI1151+20](uchvc-db/hi1151+20.md) | Spring 11h51m24.3s +20d32m20s 
+
+
+[HI1322+14](uchvc-db/hi1322+14.md) | Spring 13h22m23.2s +14d14m08s 
+
+
+[HI1436+17](uchvc-db/hi1436+17.md) | Spring 14h35m57.6s +17d10m04s 
+
+
+[HI1502+19](uchvc-db/hi1502+19.md) | Spring 15h01m49.8s +19d27m01s 
+
+
+[HI1523+17](uchvc-db/hi1523+17.md) | Spring 15h22m59.6s +16d42m02s 
+
+
+[HI2033+18](uchvc-db/hi2033+18.md) | Fall 20h33m00.7s +17d35m00s 
+
+
+[HI2238+02](uchvc-db/hi2238+02.md) | Fall 22h37m47.3s +02d21m05s 
+
+
+[HI2314+03](uchvc-db/hi2314+03.md) | Fall 23h14m16.4s +03d23m07s 
+
+
+[HI2323+27](uchvc-db/hi2323+27.md) | Fall 23h22m50.6s +27d07m18s 
+
+
+[HI2355+25](uchvc-db/hi2355+25.md) | Fall 23h55m21.4s +25d17m26s 
+
+

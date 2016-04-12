@@ -70,6 +70,7 @@ name, altname, hi_coords, cz, w50, size, m_hi, a40, other_obs, wiyn_obs, mis = n
 mon = []
 ra = []
 dec = []
+seas = []
 for i,c in enumerate(hi_coords):
     raStr = c[:8]
     decStr = c[8:]
@@ -78,7 +79,14 @@ for i,c in enumerate(hi_coords):
     ra.append(r)
     dec.append(d)
     # print altname[i], ra, dec
-    mon.append(getMonths(r, d))
+    mnth = getMonths(r, d)
+    mon.append(mnth)
+    if 'Sep' in mnth or 'Oct' in mnth:
+        season = 'Fall'
+        seas.append(season)
+    elif 'Mar' in mnth or 'Apr' in mnth:
+        season = 'Spring'
+        seas.append(season)
 ra = np.array(ra)
 dec = np.array(dec)
 
@@ -148,8 +156,10 @@ with open('props.csv', 'w+') as f:
     for i,n in enumerate(altname):
         if 'Sep' in mon[i] or 'Oct' in mon[i]:
             season = 'Fall'
+            seas.append(season)
         elif 'Mar' in mon[i] or 'Apr' in mon[i]:
             season = 'Spring'
+            seas.append(season)
 
         print >> f, '{0:9s}, {1:6s}, {2:s}, {3:s}, {4:6.3f}, {5:5.2f}, {6:6.2f}, {7:s}'.format(n, season, ra[i], dec[i], n_hi[i], m_hi[i], abar[i], wiyn_obs[i])    
 
@@ -212,7 +222,7 @@ with open('uchvc-db.md', 'w+') as f:
     print >> f, "--- "
     print >> f, "![props](media/props.png)"
     for i in range(len(name)):
-        print >> f, '['+altname[i]+'](uchvc-db/'+altname[i].lower()+')'
+        print >> f, '['+altname[i]+'](uchvc-db/'+altname[i].lower()+'.md) | '+seas[i],ra[i],dec[i],'\n\n'
         with open('uchvc-db/'+altname[i].lower()+'.md','w+') as md:
             print >> md, "---"
             print >> md, "layout: page"
