@@ -220,9 +220,9 @@ with open('uchvc-db.md', 'w+') as f:
     print >> f, "layout: page"
     print >> f, "title: uchvc-db"
     print >> f, "--- "
-    print >> f, "![props](props.png)"
-    print >> f, "|Name|Season|RA|Dec|\n"
-    print >> f, "|---:|------|---|---|\n"
+    # print >> f, "![props](props.png)"
+    print >> f, "|Name|Season|RA|Dec|"
+    print >> f, "|---:|------|---|---|"
     for i in range(len(name)):
         if wiyn_obs[i]=='completed':
             print >> f, '|['+altname[i]+']('+altname[i].lower()+')|'+seas[i]+'|`'+wiyn_obs[i]+'`|'+ra[i]+'|'+dec[i]+'|'

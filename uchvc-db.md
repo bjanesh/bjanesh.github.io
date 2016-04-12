@@ -2,11 +2,8 @@
 layout: page
 title: uchvc-db
 --- 
-![props](props.png)
 |Name|Season|RA|Dec|
-
 |---:|------|---|---|
-
 |[AGC102992](agc102992)|Fall|no|00h52m06.2s|+29d12m04s|
 |[AGC102994](agc102994)|Fall|no|00h54m31.6s|+29d24m02s|
 |[AGC103417](agc103417)|Fall|no|00h05m54.3s|+31d20m14s|
