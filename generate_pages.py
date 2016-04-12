@@ -221,8 +221,8 @@ with open('uchvc-db.md', 'w+') as f:
     print >> f, "title: uchvc-db"
     print >> f, "--- "
     print >> f, "![props](props.png)"
-    print >> f, "|Name|Season|RA|Dec|"
-    print >> f, "|---:|------|---|---|"
+    print >> f, "|Name|Season|RA|Dec|\n"
+    print >> f, "|---:|------|---|---|\n"
     for i in range(len(name)):
         print >> f, '|['+altname[i]+']('+altname[i].lower()+')|'+seas[i]+'|'+ra[i]+'|'+dec[i]+'|'
         with open('uchvc-db/'+altname[i].lower()+'.md','w+') as md:
