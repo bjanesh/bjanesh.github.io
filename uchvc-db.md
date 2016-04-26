@@ -31,11 +31,11 @@ title: uchvc-db
 <tr class="yesobs"><td><a href="/uchvc-db/agc226067">AGC226067</a></td><td>Spring</td><td>complete</td><td>12h21m54.7s</td><td>+13d28m10s</td><td> -128</td><td> 4.47</td><td> 5.34</td><td> 19.31</td></tr>
 <tr class="notobs"><td><a href="/uchvc-db/agc226165">AGC226165</a></td><td>Spring</td><td>no</td><td>12h34m40.2s</td><td>+08d24m08s</td><td>  200</td><td> 7.75</td><td> 5.33</td><td> 18.82</td></tr>
 <tr class="notobs"><td><a href="/uchvc-db/agc226170">AGC226170</a></td><td>Spring</td><td>no</td><td>12h42m04.6s</td><td>+09d54m05s</td><td>  220</td><td>12.96</td><td> 5.44</td><td> 18.49</td></tr>
-<tr class="poorobs"><td><a href="/uchvc-db/agc227977">AGC227977</a></td><td>Spring</td><td>poor seeing</td><td>12h09m20.0s</td><td>+04d23m30s</td><<td> -142</td><td> 5.29</td><td> 5.03</td><td> 18.85</td>/tr>
+<tr class="poorobs"><td><a href="/uchvc-db/agc227977">AGC227977</a></td><td>Spring</td><td>poor seeing</td><td>12h09m20.0s</td><td>+04d23m30s</td><<td> -142</td><td> 5.29</td><td> 5.03</td><td> 18.85</td></tr>
 <tr class="yesobs"><td><a href="/uchvc-db/agc227987">AGC227987</a></td><td>Spring</td><td>complete</td><td>12h45m29.8s</td><td>+05d20m23s</td><td>  265</td><td>12.00</td><td> 6.12</td><td> 19.23</td></tr>
 <tr class="planobs"><td><a href="/uchvc-db/agc227988">AGC227988</a></td><td>Spring</td><td>planned</td><td>12h46m22.9s</td><td>+04d48m42s</td><td>  321</td><td> 5.00</td><td> 5.10</td><td> 18.97</td></tr>
-<tr class="poorobs"><td><a href="/uchvc-db/agc229326">AGC229326</a></td><td>Spring</td><td>poor seeing</td><td>12h27m34.7s</td><td>+17d38m23s</td><<td>  242</td><td> 8.00</td><td> 5.30</td><td> 18.76</td>/tr>
-<tr class="poorobs"><td><a href="/uchvc-db/agc229327">AGC229327</a></td><td>Spring</td><td>poor seeing</td><td>12h32m31.6s</td><td>+17d57m21s</td><<td>  249</td><td>11.00</td><td> 5.30</td><td> 18.49</td>/tr>
+<tr class="poorobs"><td><a href="/uchvc-db/agc229326">AGC229326</a></td><td>Spring</td><td>poor seeing</td><td>12h27m34.7s</td><td>+17d38m23s</td><<td>  242</td><td> 8.00</td><td> 5.30</td><td> 18.76</td></tr>
+<tr class="poorobs"><td><a href="/uchvc-db/agc229327">AGC229327</a></td><td>Spring</td><td>poor seeing</td><td>12h32m31.6s</td><td>+17d57m21s</td><<td>  249</td><td>11.00</td><td> 5.30</td><td> 18.49</td></tr>
 <tr class="notobs"><td><a href="/uchvc-db/agc229344">AGC229344</a></td><td>Spring</td><td>no</td><td>12h37m58.5s</td><td>+07d48m49s</td><td>  154</td><td>15.43</td><td> 5.59</td><td> 18.48</td></tr>
 <tr class="yesobs"><td><a href="/uchvc-db/agc232765">AGC232765</a></td><td>Spring</td><td>complete</td><td>13h23m09.4s</td><td>+15d11m17s</td><td>  105</td><td> 5.00</td><td> 5.50</td><td> 19.37</td></tr>
 <tr class="planobs"><td><a href="/uchvc-db/agc233763">AGC233763</a></td><td>Spring</td><td>planned</td><td>13h12m42.3s</td><td>+13d30m46s</td><td>  127</td><td> 5.92</td><td> 5.35</td><td> 19.08</td></tr>
@@ -47,10 +47,10 @@ title: uchvc-db
 <tr class="yesobs"><td><a href="/uchvc-db/agc249282">AGC249282</a></td><td>Spring</td><td>complete</td><td>14h23m21.2s</td><td>+04d34m37s</td><td>  203</td><td> 5.92</td><td> 5.53</td><td> 19.26</td></tr>
 <tr class="planobs"><td><a href="/uchvc-db/agc249283">AGC249283</a></td><td>Spring</td><td>planned</td><td>14h23m57.7s</td><td>+05d23m40s</td><td>  252</td><td>13.27</td><td> 5.42</td><td> 18.45</td></tr>
 <tr class="yesobs"><td><a href="/uchvc-db/agc249320">AGC249320</a></td><td>Spring</td><td>complete</td><td>14h06m00.0s</td><td>+06d07m36s</td><td>   59</td><td> 5.00</td><td> 5.30</td><td> 19.17</td></tr>
-<tr class="poorobs"><td><a href="/uchvc-db/agc249323">AGC249323</a></td><td>Spring</td><td>poor seeing</td><td>14h19m48.6s</td><td>+07d11m15s</td><<td>  246</td><td>10.82</td><td> 5.50</td><td> 18.70</td>/tr>
+<tr class="poorobs"><td><a href="/uchvc-db/agc249323">AGC249323</a></td><td>Spring</td><td>poor seeing</td><td>14h19m48.6s</td><td>+07d11m15s</td><<td>  246</td><td>10.82</td><td> 5.50</td><td> 18.70</td></tr>
 <tr class="notobs"><td><a href="/uchvc-db/agc249324">AGC249324</a></td><td>Spring</td><td>no</td><td>14h20m18.0s</td><td>+07d23m33s</td><td> -146</td><td> 8.00</td><td> 5.40</td><td> 18.86</td></tr>
 <tr class="planobs"><td><a href="/uchvc-db/agc249326">AGC249326</a></td><td>Spring</td><td>planned</td><td>14h31m58.8s</td><td>+06d35m20s</td><td>  136</td><td> 5.48</td><td> 5.22</td><td> 19.01</td></tr>
-<tr class="poorobs"><td><a href="/uchvc-db/agc249393">AGC249393</a></td><td>Spring</td><td>poor seeing</td><td>14h10m58.1s</td><td>+24d12m04s</td><<td> -157</td><td>11.62</td><td> 5.42</td><td> 18.56</td>/tr>
+<tr class="poorobs"><td><a href="/uchvc-db/agc249393">AGC249393</a></td><td>Spring</td><td>poor seeing</td><td>14h10m58.1s</td><td>+24d12m04s</td><<td> -157</td><td>11.62</td><td> 5.42</td><td> 18.56</td></tr>
 <tr class="planobs"><td><a href="/uchvc-db/agc249441">AGC249441</a></td><td>Spring</td><td>planned</td><td>14h07m00.8s</td><td>+00d13m23s</td><td> -131</td><td> 8.00</td><td> 5.20</td><td> 18.66</td></tr>
 <tr class="yesobs"><td><a href="/uchvc-db/agc249525">AGC249525</a></td><td>Spring</td><td>complete</td><td>14h17m50.1s</td><td>+17d32m52s</td><td>   48</td><td> 9.00</td><td> 6.20</td><td> 19.56</td></tr>
 <tr class="planobs"><td><a href="/uchvc-db/agc257956">AGC257956</a></td><td>Spring</td><td>planned</td><td>15h55m07.5s</td><td>+14d29m29s</td><td>  144</td><td> 6.93</td><td> 5.56</td><td> 19.15</td></tr>
@@ -60,7 +60,7 @@ title: uchvc-db
 <tr class="yesobs"><td><a href="/uchvc-db/agc258242">AGC258242</a></td><td>Spring</td><td>complete</td><td>15h10m00.6s</td><td>+11d11m27s</td><td>  207</td><td> 7.35</td><td> 5.22</td><td> 18.76</td></tr>
 <tr class="yesobs"><td><a href="/uchvc-db/agc258459">AGC258459</a></td><td>Spring</td><td>complete</td><td>15h04m41.3s</td><td>+06d12m59s</td><td>  149</td><td>10.49</td><td> 5.50</td><td> 18.73</td></tr>
 <tr class="planobs"><td><a href="/uchvc-db/agc268067">AGC268067</a></td><td>Spring</td><td>planned</td><td>16h05m29.4s</td><td>+16d09m12s</td><td>  158</td><td> 7.75</td><td> 5.65</td><td> 19.14</td></tr>
-<tr class="poorobs"><td><a href="/uchvc-db/agc268069">AGC268069</a></td><td>Spring</td><td>poor seeing in g?</td><td>16h05m32.6s</td><td>+14d59m20s</td><<td>  132</td><td> 7.07</td><td> 5.43</td><td> 19.00</td>/tr>
+<tr class="poorobs"><td><a href="/uchvc-db/agc268069">AGC268069</a></td><td>Spring</td><td>poor seeing in g?</td><td>16h05m32.6s</td><td>+14d59m20s</td><<td>  132</td><td> 7.07</td><td> 5.43</td><td> 19.00</td></tr>
 <tr class="notobs"><td><a href="/uchvc-db/agc268070">AGC268070</a></td><td>Spring</td><td>no</td><td>16h07m07.0s</td><td>+15d08m31s</td><td>  160</td><td>12.37</td><td> 5.54</td><td> 18.63</td></tr>
 <tr class="planobs"><td><a href="/uchvc-db/agc268071">AGC268071</a></td><td>Spring</td><td>planned</td><td>16h12m36.8s</td><td>+14d12m26s</td><td>  109</td><td> 9.17</td><td> 5.80</td><td> 19.15</td></tr>
 <tr class="notobs"><td><a href="/uchvc-db/agc268072">AGC268072</a></td><td>Spring</td><td>no</td><td>16h17m45.3s</td><td>+14d10m36s</td><td>  108</td><td>12.00</td><td> 5.87</td><td> 18.98</td></tr>
@@ -85,17 +85,17 @@ title: uchvc-db
 <tr class="yesobs"><td><a href="/uchvc-db/hi0106+12">HI0106+12</a></td><td>Fall</td><td>complete</td><td>01h06m00.7s</td><td>+12d26m57s</td><td>   84</td><td> 6.00</td><td> 5.36</td><td> 19.07</td></tr>
 <tr class="planobs"><td><a href="/uchvc-db/hi0126+05">HI0126+05</a></td><td>Fall</td><td>planned</td><td>01h26m21.5s</td><td>+05d23m08s</td><td>   59</td><td> 8.12</td><td> 6.06</td><td> 19.51</td></tr>
 <tr class="notobs"><td><a href="/uchvc-db/hi0810+29">HI0810+29</a></td><td>Fall</td><td>no</td><td>08h10m07.6s</td><td>+28d58m35s</td><td>  181</td><td> 9.00</td><td> 5.30</td><td> 18.66</td></tr>
-<tr class="poorobs"><td><a href="/uchvc-db/hi0932+24">HI0932+24</a></td><td>Fall</td><td>poor seeing</td><td>09h32m08.0s</td><td>+23d37m52s</td><<td>  178</td><td>10.00</td><td> 5.30</td><td> 18.57</td>/tr>
+<tr class="poorobs"><td><a href="/uchvc-db/hi0932+24">HI0932+24</a></td><td>Fall</td><td>poor seeing</td><td>09h32m08.0s</td><td>+23d37m52s</td><<td>  178</td><td>10.00</td><td> 5.30</td><td> 18.57</td></tr>
 <tr class="yesobs"><td><a href="/uchvc-db/hi0959+19">HI0959+19</a></td><td>Spring</td><td>complete</td><td>09h59m11.8s</td><td>+18d55m35s</td><td>   84</td><td>16.00</td><td> 6.00</td><td> 18.86</td></tr>
 <tr class="planobs"><td><a href="/uchvc-db/hi1023+21">HI1023+21</a></td><td>Spring</td><td>planned</td><td>10h23m09.0s</td><td>+20d40m59s</td><td>  -60</td><td> 8.00</td><td> 5.60</td><td> 19.06</td></tr>
 <tr class="yesobs"><td><a href="/uchvc-db/hi1037+21">HI1037+21</a></td><td>Spring</td><td>complete</td><td>10h37m06.6s</td><td>+20d30m58s</td><td>   98</td><td>11.00</td><td> 5.80</td><td> 18.99</td></tr>
-<tr class="poorobs"><td><a href="/uchvc-db/hi1050+24">HI1050+24</a></td><td>Spring</td><td>poor seeing</td><td>10h49m32.4s</td><td>+23d56m38s</td><<td>   65</td><td>13.00</td><td> 6.00</td><td> 19.04</td>/tr>
+<tr class="poorobs"><td><a href="/uchvc-db/hi1050+24">HI1050+24</a></td><td>Spring</td><td>poor seeing</td><td>10h49m32.4s</td><td>+23d56m38s</td><<td>   65</td><td>13.00</td><td> 6.00</td><td> 19.04</td></tr>
 <tr class="notobs"><td><a href="/uchvc-db/hi1108+21">HI1108+21</a></td><td>Spring</td><td>no</td><td>11h08m04.7s</td><td>+21d14m14s</td><td>  127</td><td>14.00</td><td> 5.70</td><td> 18.68</td></tr>
 <tr class="notobs"><td><a href="/uchvc-db/hi1125+31">HI1125+31</a></td><td>Spring</td><td>no</td><td>11h25m08.5s</td><td>+30d31m30s</td><td>   90</td><td>11.00</td><td> 5.40</td><td> 18.59</td></tr>
-<tr class="poorobs"><td><a href="/uchvc-db/hi1134+20">HI1134+20</a></td><td>Spring</td><td>poor seeing!</td><td>11h34m29.7s</td><td>+20d12m49s</td><<td>   74</td><td> 7.00</td><td> 5.30</td><td> 18.88</td>/tr>
+<tr class="poorobs"><td><a href="/uchvc-db/hi1134+20">HI1134+20</a></td><td>Spring</td><td>poor seeing!</td><td>11h34m29.7s</td><td>+20d12m49s</td><<td>   74</td><td> 7.00</td><td> 5.30</td><td> 18.88</td></tr>
 <tr class="yesobs"><td><a href="/uchvc-db/hi1151+20">HI1151+20</a></td><td>Spring</td><td>complete</td><td>11h51m24.3s</td><td>+20d32m20s</td><td>  192</td><td> 8.00</td><td> 5.30</td><td> 18.76</td></tr>
 <tr class="notobs"><td><a href="/uchvc-db/hi1322+14">HI1322+14</a></td><td>Spring</td><td>no</td><td>13h22m23.2s</td><td>+14d14m08s</td><td>  109</td><td> 8.00</td><td> 5.20</td><td> 18.66</td></tr>
-<tr class="poorobs"><td><a href="/uchvc-db/hi1436+17">HI1436+17</a></td><td>Spring</td><td>poor seeing</td><td>14h35m57.6s</td><td>+17d10m04s</td><<td>   30</td><td> 8.00</td><td> 5.60</td><td> 19.06</td>/tr>
+<tr class="poorobs"><td><a href="/uchvc-db/hi1436+17">HI1436+17</a></td><td>Spring</td><td>poor seeing</td><td>14h35m57.6s</td><td>+17d10m04s</td><<td>   30</td><td> 8.00</td><td> 5.60</td><td> 19.06</td></tr>
 <tr class="notobs"><td><a href="/uchvc-db/hi1502+19">HI1502+19</a></td><td>Spring</td><td>no</td><td>15h01m49.8s</td><td>+19d27m01s</td><td>   27</td><td> 9.00</td><td> 5.60</td><td> 18.96</td></tr>
 <tr class="notobs"><td><a href="/uchvc-db/hi1523+17">HI1523+17</a></td><td>Spring</td><td>no</td><td>15h22m59.6s</td><td>+16d42m02s</td><td>    5</td><td> 9.00</td><td> 5.60</td><td> 18.96</td></tr>
 <tr class="planobs"><td><a href="/uchvc-db/hi2033+18">HI2033+18</a></td><td>Fall</td><td>planned</td><td>20h33m00.7s</td><td>+17d35m00s</td><td>   37</td><td> 8.00</td><td> 6.01</td><td> 19.47</td></tr>
