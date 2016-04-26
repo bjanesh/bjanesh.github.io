@@ -232,7 +232,7 @@ with open('uchvc-db.md', 'w+') as f:
         elif wiyn_obs[i]=='planned':
             print >> f, '<tr class="planobs"><td><a href="/uchvc-db/'+altname[i].lower()+'">'+altname[i]+'</a></td><td>'+seas[i]+'</td><td>'+wiyn_obs[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td><td>'+'{0:5.0f}'.format(cz[i])+'</td><td>'+'{0:5.2f}'.format(abar[i])+'</td><td>'+'{0:5.2f}'.format(m_hi[i])+'</td><td>'+'{0:6.2f}'.format(n_hi[i])+'</td></tr>'
         elif 'poor' in wiyn_obs[i]:
-            print >> f, '<tr class="poorobs"><td><a href="/uchvc-db/'+altname[i].lower()+'">'+altname[i]+'</a></td><td>'+seas[i]+'</td><td>'+wiyn_obs[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td><<td>'+'{0:5.0f}'.format(cz[i])+'</td><td>'+'{0:5.2f}'.format(abar[i])+'</td><td>'+'{0:5.2f}'.format(m_hi[i])+'</td><td>'+'{0:6.2f}'.format(n_hi[i])+'</td></tr>' 
+            print >> f, '<tr class="poorobs"><td><a href="/uchvc-db/'+altname[i].lower()+'">'+altname[i]+'</a></td><td>'+seas[i]+'</td><td>'+wiyn_obs[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td><td>'+'{0:5.0f}'.format(cz[i])+'</td><td>'+'{0:5.2f}'.format(abar[i])+'</td><td>'+'{0:5.2f}'.format(m_hi[i])+'</td><td>'+'{0:6.2f}'.format(n_hi[i])+'</td></tr>' 
         with open('uchvc-db/'+altname[i].lower()+'.md','w+') as md:
             print >> md, "---"
             print >> md, "layout: page"
