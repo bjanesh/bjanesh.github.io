@@ -225,14 +225,14 @@ with open('uchvc-db.md', 'w+') as f:
     print >> f, "<th><td>Name</td><td>Season</td><td>Observed</td><td>RA</td><td>Dec</td></th>"
     # print >> f, "|---:|------|---|---|"
     for i in range(len(name)):
-        if wiyn_obs[i]=='completed':
-            print >> f, '<tr><td>['+altname[i]+']('+altname[i].lower()+')</td><td>'+seas[i]+'</td><td class="yesobs">'+wiyn_obs[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td></tr>'
+        if wiyn_obs[i]=='complete':
+            print >> f, '<tr class="yesobs"><td>['+altname[i]+']('+altname[i].lower()+')</td><td>'+seas[i]+'</td><td>'+wiyn_obs[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td></tr>'
         elif wiyn_obs[i]=='no':
-            print >> f, '<tr><td>['+altname[i]+']('+altname[i].lower()+')</td><td>'+seas[i]+'</td><td class="notobs">'+wiyn_obs[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td></tr>'
+            print >> f, '<tr class="notobs"><td>['+altname[i]+']('+altname[i].lower()+')</td><td>'+seas[i]+'</td><td>'+wiyn_obs[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td></tr>'
         elif wiyn_obs[i]=='planned':
-            print >> f, '<tr><td>['+altname[i]+']('+altname[i].lower()+')</td><td>'+seas[i]+'</td><td class="planobs">'+wiyn_obs[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td></tr>'
+            print >> f, '<tr class="planobs"><td>['+altname[i]+']('+altname[i].lower()+')</td><td>'+seas[i]+'</td><td>'+wiyn_obs[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td></tr>'
         elif 'poor' in wiyn_obs[i]:
-            print >> f, '<tr><td>['+altname[i]+']('+altname[i].lower()+')</td><td>'+seas[i]+'</td><td class="poorobs">'+wiyn_obs[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td></tr>' 
+            print >> f, '<tr class="poorobs"><td>['+altname[i]+']('+altname[i].lower()+')</td><td>'+seas[i]+'</td><td>'+wiyn_obs[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td></tr>' 
         with open('uchvc-db/'+altname[i].lower()+'.md','w+') as md:
             print >> md, "---"
             print >> md, "layout: page"
