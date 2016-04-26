@@ -222,17 +222,17 @@ with open('uchvc-db.md', 'w+') as f:
     print >> f, "--- "
     # print >> f, "![props](props.png)"
     print >> f, '<table>'
-    print >> f, "<th><td>Name</td><td>Season</td><td>Observed</td><td>RA</td><td>Dec</td></th>"
+    print >> f, "<tr><td>Name</td><td>Season</td><td>Observed</td><td>RA</td><td>Dec</td></tr>"
     # print >> f, "|---:|------|---|---|"
     for i in range(len(name)):
         if wiyn_obs[i]=='complete':
-            print >> f, '<tr class="yesobs"><td>['+altname[i]+']('+altname[i].lower()+')</td><td>'+seas[i]+'</td><td>'+wiyn_obs[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td></tr>'
+            print >> f, '<tr class="yesobs"><td><a href="/'+altname[i].lower()+'">'+altname[i].lower()+'</a></td><td>'+seas[i]+'</td><td>'+wiyn_obs[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td></tr>'
         elif wiyn_obs[i]=='no':
-            print >> f, '<tr class="notobs"><td>['+altname[i]+']('+altname[i].lower()+')</td><td>'+seas[i]+'</td><td>'+wiyn_obs[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td></tr>'
+            print >> f, '<tr class="notobs"><td><a href="/'+altname[i].lower()+'">'+altname[i].lower()+'</a></td><td>'+seas[i]+'</td><td>'+wiyn_obs[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td></tr>'
         elif wiyn_obs[i]=='planned':
-            print >> f, '<tr class="planobs"><td>['+altname[i]+']('+altname[i].lower()+')</td><td>'+seas[i]+'</td><td>'+wiyn_obs[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td></tr>'
+            print >> f, '<tr class="planobs"><td><a href="/'+altname[i].lower()+'">'+altname[i].lower()+'</a></td><td>'+seas[i]+'</td><td>'+wiyn_obs[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td></tr>'
         elif 'poor' in wiyn_obs[i]:
-            print >> f, '<tr class="poorobs"><td>['+altname[i]+']('+altname[i].lower()+')</td><td>'+seas[i]+'</td><td>'+wiyn_obs[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td></tr>' 
+            print >> f, '<tr class="poorobs"><td><a href="/'+altname[i].lower()+'">'+altname[i].lower()+'</a></td><td>'+seas[i]+'</td><td>'+wiyn_obs[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td></tr>' 
         with open('uchvc-db/'+altname[i].lower()+'.md','w+') as md:
             print >> md, "---"
             print >> md, "layout: page"
