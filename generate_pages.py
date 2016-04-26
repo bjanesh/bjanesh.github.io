@@ -221,13 +221,18 @@ with open('uchvc-db.md', 'w+') as f:
     print >> f, "title: uchvc-db"
     print >> f, "--- "
     # print >> f, "![props](props.png)"
-    print >> f, "|Name|Season|RA|Dec|"
-    print >> f, "|---:|------|---|---|"
+    print >> f, '<table>'
+    print >> f, "<th><td>Name</td><td>Season</td><td>Observed</td><td>RA</td><td>Dec</td></th>"
+    # print >> f, "|---:|------|---|---|"
     for i in range(len(name)):
         if wiyn_obs[i]=='completed':
-            print >> f, '|['+altname[i]+']('+altname[i].lower()+')|'+seas[i]+'|`'+wiyn_obs[i]+'`|'+ra[i]+'|'+dec[i]+'|'
-        else:
-            print >> f, '|['+altname[i]+']('+altname[i].lower()+')|'+seas[i]+'|'+wiyn_obs[i]+'|'+ra[i]+'|'+dec[i]+'|'    
+            print >> f, '<tr><td>['+altname[i]+']('+altname[i].lower()+')</td><td>'+seas[i]+'</td><td class="yesobs">'+wiyn_obs[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td></tr>'
+        elif wiyn_obs[i]=='no':
+            print >> f, '<tr><td>['+altname[i]+']('+altname[i].lower()+')</td><td>'+seas[i]+'</td><td class="notobs">'+wiyn_obs[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td></tr>'
+        elif wiyn_obs[i]=='planned':
+            print >> f, '<tr><td>['+altname[i]+']('+altname[i].lower()+')</td><td>'+seas[i]+'</td><td class="planobs">'+wiyn_obs[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td></tr>'
+        elif 'poor' in wiyn_obs[i]:
+            print >> f, '<tr><td>['+altname[i]+']('+altname[i].lower()+')</td><td>'+seas[i]+'</td><td class="poorobs">'+wiyn_obs[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td></tr>' 
         with open('uchvc-db/'+altname[i].lower()+'.md','w+') as md:
             print >> md, "---"
             print >> md, "layout: page"
@@ -242,6 +247,8 @@ with open('uchvc-db.md', 'w+') as f:
             print >> md, "|m_hi|"+repr(m_hi[i])+'|'
             print >> md, "|n_hi|"+repr(n_hi[i])+'|'
             # print >> md, "|months observable|"+mon[i]+'|'
+    print >> f, "</table>"   
+
 # print n_mhi
 # print n_cz
 # print n_w50
