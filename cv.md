@@ -13,7 +13,7 @@ Astronomy PhD student
 <i class="fa fa-twitter"></i> <a href="http://twitter.com/bjanesh">bjanesh</a>
 </div>
 
-## Education
+### Education
 
 `2013-16`
 __Indiana University__, Bloomington, IN, Astronomy PhD (advisor: Katherine Rhode; expected 2018)
@@ -24,7 +24,7 @@ __Kent State University__, Kent, OH, MS Library and Information Science
 `2007-11`
 __Case Western Reserve University__, Cleveland, OH, BS Astronomy
 
-## Experience
+### Experience
 
 `2014-16`
 __Research Assistant__, Indiana University Department of Astronomy. _Duties:_ development of data reduction processes and software tools related to optical images from the WIYN telescope for multiple projects; data analysis of final science products.
@@ -38,7 +38,7 @@ __Associate Instructor__, Indiana University Department of Astronomy. _Duties:_ 
 `2010-13`
 __Research Assistant__, Case Western Reserve University Department of Astronomy. _Duties:_ in-depth analysis of data from the Sloan Digital Sky Survey; development of statistical techniques and software tools for analysis.
 
-## Refereed Publications
+### Refereed Publications
 
 __Janesh, W.__, Morrison, H. L., Ma, Z., _et al._ 2016, The SEGUE K Giant Survey. III. Quantifying Galactic Halo Substructure, _Astrophysical Journal_, 816, 80 
 
@@ -52,7 +52,24 @@ Janowiecki, S., Leisman, L., Jòzsa, G., ___et al.___ 2015, (Almost) Dark HI Sou
 
 Adams, E. A. K., Faerman, Y., __Janesh, W. F.__, _et al._ 2015, AGC198606: A gas-bearing dark matter minihalo?, _Astronomy &amp; Astrophysics_, 573, L3 
 
-## Technical skills
+### Posters and Presentations
+`April 2016` 
+_STScI Spring Symposium,_ Baltimore, MD. Poster. "The Possible New Local Group Member AGC 198606 (Friend of Leo T) and the Search for Optical Counterparts to ALFALFA-Detected UCHVCs".
+_w/_ Katherine Rhode, John Salzer, Steven Janowiecki, Elizabeth Adams, Martha Haynes, Riccardo Giovanelli, John Cannon & Ricardo Muñoz.
+
+`January 2015`
+_225<superscript>th</superscript> Meeting of the American Astronomical Society,_ Seattle, WA. Poster. "Searching for Stellar Counterparts to ALFALFA Ultra- Compact High Velocity Clouds with WIYN / pODI" 
+_w/_ Katherine Rhode, John Salzer, Steven Janowiecki, Elizabeth Adams, Martha Haynes, Riccardo Giovanelli, John Cannon & Ricardo Muñoz.
+
+`August 2011`
+_SDSS-III Collaboration Meeting,_ Nashville, TN. Presentation. "New Pieces of the Sagittarius Tidal Stream". 
+_w/_ Heather Morrison, Zhibo Ma, Paul Harding, Connie Rockosi & Jennifer Johnson.
+
+`March 2011`
+_SEGUE Collaboration Meeting,_ Columbus, OH. Presentation. "Metallicity Distribution of the Sagittarius Streams".
+_w/_ Heather Morrison, Zhibo Ma, Paul Harding, Connie Rockosi & Jennifer Johnson.
+
+### Technical skills
 
 * Statistics
 * LaTeX
@@ -64,7 +81,7 @@ Adams, E. A. K., Faerman, Y., __Janesh, W. F.__, _et al._ 2015, AGC198606: A gas
 * Fortran 90
 * Data visualization
 
-## Links
+### Links
 
 * <i class="fa fa-envelope"></i> <a href="mailto:wjanesh@indiana.edu">wjanesh@indiana.edu</a><br />
 * <i class="fa fa-github"></i> <a href="http://github.com/bjanesh">bjanesh</a><br />
@@ -72,7 +89,7 @@ Adams, E. A. K., Faerman, Y., __Janesh, W. F.__, _et al._ 2015, AGC198606: A gas
 * <i class="fa fa-google"></i> <a href="https://scholar.google.com/citations?user=y3HCilUAAAAJ">scholar</a>
 * <i class="fa fa-search"></i> <a href="https://ui.adsabs.harvard.edu/#search/q=author%3A%22Janesh%2C+William%22&sort=date+desc">NASA ADS</a><br />
 
-## References
+### References
 
 Available on request.
 
