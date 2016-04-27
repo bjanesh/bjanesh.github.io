@@ -54,19 +54,23 @@ Adams, E. A. K., Faerman, Y., __Janesh, W. F.__, _et al._ 2015, AGC198606: A gas
 
 ### Posters and Presentations
 `April 2016` 
-_STScI Spring Symposium,_ Baltimore, MD. Poster. "The Possible New Local Group Member AGC 198606 (Friend of Leo T) and the Search for Optical Counterparts to ALFALFA-Detected UCHVCs".
+__STScI Spring Symposium,__ Baltimore, MD. _Poster._ "The Possible New Local Group Member AGC 198606 (Friend of Leo T) and the Search for Optical Counterparts to ALFALFA-Detected UCHVCs".
+
 _w/_ Katherine Rhode, John Salzer, Steven Janowiecki, Elizabeth Adams, Martha Haynes, Riccardo Giovanelli, John Cannon & Ricardo Muñoz.
 
 `January 2015`
-_225<superscript>th</superscript> Meeting of the American Astronomical Society,_ Seattle, WA. Poster. "Searching for Stellar Counterparts to ALFALFA Ultra- Compact High Velocity Clouds with WIYN / pODI" 
+__225<sup>th</sup> Meeting of the American Astronomical Society,__ Seattle, WA. _Poster._ "Searching for Stellar Counterparts to ALFALFA Ultra- Compact High Velocity Clouds with WIYN / pODI" 
+
 _w/_ Katherine Rhode, John Salzer, Steven Janowiecki, Elizabeth Adams, Martha Haynes, Riccardo Giovanelli, John Cannon & Ricardo Muñoz.
 
 `August 2011`
-_SDSS-III Collaboration Meeting,_ Nashville, TN. Presentation. "New Pieces of the Sagittarius Tidal Stream". 
+__SDSS-III Collaboration Meeting,__ Nashville, TN. _Presentation._ "New Pieces of the Sagittarius Tidal Stream". 
+
 _w/_ Heather Morrison, Zhibo Ma, Paul Harding, Connie Rockosi & Jennifer Johnson.
 
 `March 2011`
-_SEGUE Collaboration Meeting,_ Columbus, OH. Presentation. "Metallicity Distribution of the Sagittarius Streams".
+__SEGUE Collaboration Meeting,__ Columbus, OH. _Presentation._ "Metallicity Distribution of the Sagittarius Streams".
+
 _w/_ Heather Morrison, Zhibo Ma, Paul Harding, Connie Rockosi & Jennifer Johnson.
 
 ### Technical skills
