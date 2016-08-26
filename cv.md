@@ -26,6 +26,9 @@ __Case Western Reserve University__, Cleveland, OH, BS Astronomy
 
 ### Experience
 
+`Summer 2016`
+__Instructor__, Indiana University. _Duties:_ conduct daily lectures for a 6-week section of a 100-level stars and galaxies course; development of syllabus, lecture slides, assignments, quizzes, and exams; weekly office hours.
+
 `2014-16`
 __Research Assistant__, Indiana University Department of Astronomy. _Duties:_ development of data reduction processes and software tools related to optical images from the WIYN telescope for multiple projects; data analysis of final science products.
 
