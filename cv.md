@@ -76,6 +76,9 @@ __SEGUE Collaboration Meeting,__ Columbus, OH. _Presentation._ "Metallicity Dist
 
 _w/_ Heather Morrison, Zhibo Ma, Paul Harding, Connie Rockosi & Jennifer Johnson.
 
+### Observing Experience
+`21 nights` __Wisconsin-Indiana-Yale-NOAO (WIYN) 3.5m telescope__, Kitt Peak National Observatory. One Degree Imager. April 2014, October 2014, October 2015, April 2016.
+
 ### Technical skills
 
 * Statistics
