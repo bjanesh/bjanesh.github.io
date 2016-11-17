@@ -16,9 +16,16 @@ title:
 
 2. **Time on `wopr` is scheduled on a first-come-first-serve basis.** Don't schedule more time than you need. Full processing of a 9-point dither pattern takes about 3-4 hours per filter. The schedule can be found below or at [https://teamup.com/ks78bf366c93189e18](https://teamup.com/ks78bf366c93189e18).
 
-3. **All disk space on `wopr` will be treated as scratch space.** ODI data processing is extremely space intensive. The SSD is appropriately sized for full processing of ~30 5x6 ODI images. Use your space carefully! If you have not cleared your data by the end of your scheduled time, it will be cleared for you. Take your final data products with you!
+3. **All disk space on `wopr` will be treated as scratch space.** ODI data processing is extremely space intensive. The SSD is appropriately sized for full processing of ~30 5x6 ODI images. Use your space carefully! If you have not cleared your data by the end of your scheduled time, it will be cleared for you. Take your final data products with you! A few (representative) statistics about data size:
+    * A single compressed 5x6 ODI image: `250 MB`
+    * A single uncompressed 5x6 ODI image: `2.0 GB`
+    * One 9-point dither pattern (unprocessed): `18 GB`
+    * One 9-point dither pattern (processed): `130 GB`
+    * Two 9-point dither patterns (processed): `260 GB`
+    * Three 9-point dither patterns (processed): `390 GB`
+    * Maximum SSD disk capacity: `490 GB`
 
-4. **Final data products will be stored on the IU Scholarly Data Archive.** The details of this process are still pending.
+4. **Final data products will be stored/archived on the IU Scholarly Data Archive.** The details of this process are still pending.
 
 5. **Need help?** If you have technical issues with `wopr` please report them to Bob Lezotte. Critical issues with `odi-tools` should be reported to Bill Janesh or Owen Boberg. Non-critical issues or feature requests should be submitted as a [Github issue](https://github.com/bjanesh/odi-tools/issues). All other communication should be directed to the `wopr-l` mailing list.
 
