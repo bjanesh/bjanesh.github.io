@@ -12,9 +12,9 @@ title:
 
 **General Policies**
 
-1. `wopr` **is a restricted access machine**, meaning you need a user account to use it. Contact Bob Lezotte or Bill Janesh to request an account. 
+1. `wopr` **is a restricted access machine**, meaning you need a user account to use it. Contact Bob Lezotte to request an account. 
 
-2. **Time on `wopr` is scheduled on a first-come-first-serve basis.** Don't schedule more time than you need. Full processing of a 9-point dither pattern takes about 3-4 hours per filter. The schedule can be found below or at [https://teamup.com/ks78bf366c93189e18](https://teamup.com/ks78bf366c93189e18).
+2. **Time on `wopr` is scheduled on a first-come-first-serve basis.** Don't schedule more time than you need. Full processing of a 9-point dither pattern takes about 3-4 hours per filter. The schedule can be found below or at [https://teamup.com/ks78bf366c93189e18](https://teamup.com/ks78bf366c93189e18). 
 
 3. **All disk space on `wopr` will be treated as scratch space.** ODI data processing is extremely space intensive. The SSD is appropriately sized for full processing of ~30 5x6 ODI images. Use your space carefully! If you have not cleared your data by the end of your scheduled time, it will be cleared for you. Take your final data products with you! A few (representative) statistics about data size:
     * A single compressed 5x6 ODI image: `250 MB`
@@ -32,11 +32,19 @@ title:
 **Getting started**
 
 0. Log in to your account.
-1. Create a working folder under `/ssd1` with an appropriate name for your data.
-2. Get your QuickReduced data using the Download option on ODI-PPA. You probably want to use the `wget` option. Navigate to your data folder and paste the command.
-3. Copy and edit a `config.yaml` file to include the appropriate options for your data.
-4. Run the `odi-tools` data processing scripts as needed. 
-5. Run the clean-up script. This will *compress & move* your final products to your home folder and ***delete*** all intermediate data. Don't do this until you are satisfied with your final results!
-6. Notify an administrator when you are finished processing your data.
+1. First time users should initialize `IRAF` by doing the following:
+    a. navigate to your home directory: `cd ~`
+    b. create an IRAF folder: `mkdir iraf`
+    c. navigate to the iraf folder: `cd iraf`
+    d. initialize IRAF: `mkiraf`
+    e. (optional) copy your preferred `login.cl` file with `scp` or `sftp`
+    f. start, and then exit pyraf: `pyraf`, then `.exit`
+2. Get your QuickReduced data using the Download option on ODI-PPA. You probably want to use the `wget` option, so leave the "Tar exposure directories" box **unchecked**. Navigate to `/ssd1` and paste the command.
+3. Your images will download to a folder named, appropriately, `images`. Rename this folder to match your object name, e.g. `mv images m15`.
+4. Navigate into the folder with the images and uncompress them: `funpack *.fz`. This will take a few minutes. If you're worried about space, delete the compressed images `rm *.fz`. Otherwise you may wish to keep them until you are sure your data processed correctly.
+5. Copy and edit a `config.yaml` file to include the appropriate options for your data: `cp $ODI_CONFIG config.yaml`. **UPDATE 26 January 2017:** illumination correction should be turned off.
+6. Run the `odi-tools` data processing scripts `odi_process.py`, `odi_scalestack_process.py` as needed. 
+7. Run the clean-up script `odi_cleanup.py`. This will *compress & move* your final products to a `.tar.gz` file in `/ssd1`. You can then copy this file to your own machine. Don't do this until you are satisfied with your final results!
+8. Notify an administrator (Bob) when you are finished processing your data.
 
-<iframe src="https://teamup.com/ks78bf366c93189e18" frameborder="0" width="100%" height="350"></iframe> 
+<iframe src="https://teamup.com/ks78bf366c93189e18" frameborder="0" width="100%" height="400"></iframe> 
