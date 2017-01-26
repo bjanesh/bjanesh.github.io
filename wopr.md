@@ -33,12 +33,12 @@ title:
 
 0. Log in to your account.
 1. First time users should initialize `IRAF` by doing the following:
-    a. navigate to your home directory: `cd ~`
-    b. create an IRAF folder: `mkdir iraf`
-    c. navigate to the iraf folder: `cd iraf`
-    d. initialize IRAF: `mkiraf`
-    e. (optional) copy your preferred `login.cl` file with `scp` or `sftp`
-    f. start, and then exit pyraf: `pyraf`, then `.exit`
+    1. navigate to your home directory: `cd ~`
+    2. create an IRAF folder: `mkdir iraf`
+    3. navigate to the iraf folder: `cd iraf`
+    4. initialize IRAF: `mkiraf`
+    5. (optional) copy your preferred `login.cl` file with `scp` or `sftp`
+    6. start, and then exit pyraf: `pyraf`, then `.exit`
 2. Get your QuickReduced data using the Download option on ODI-PPA. You probably want to use the `wget` option, so leave the "Tar exposure directories" box **unchecked**. Navigate to `/ssd1` and paste the command.
 3. Your images will download to a folder named, appropriately, `images`. Rename this folder to match your object name, e.g. `mv images m15`.
 4. Navigate into the folder with the images and uncompress them: `funpack *.fz`. This will take a few minutes. If you're worried about space, delete the compressed images `rm *.fz`. Otherwise you may wish to keep them until you are sure your data processed correctly.
