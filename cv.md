@@ -15,7 +15,7 @@ Astronomy PhD student
 
 ### Education
 
-`2013-16`
+`2013-17`
 __Indiana University__, Bloomington, IN, Astronomy PhD (advisor: Katherine Rhode; expected 2018)
 
 `2011-13`
@@ -26,11 +26,11 @@ __Case Western Reserve University__, Cleveland, OH, BS Astronomy
 
 ### Experience
 
+`2014-17`
+__Research Assistant__, Indiana University Department of Astronomy. _Duties:_ development of data reduction processes and software tools related to optical images from the WIYN telescope for multiple projects; data analysis of final science products.
+
 `Summer 2016`
 __Instructor__, Indiana University. _Duties:_ conduct daily lectures for a 6-week section of a 100-level stars and galaxies course; development of syllabus, lecture slides, assignments, quizzes, and exams; weekly office hours.
-
-`2014-16`
-__Research Assistant__, Indiana University Department of Astronomy. _Duties:_ development of data reduction processes and software tools related to optical images from the WIYN telescope for multiple projects; data analysis of final science products.
 
 `Fall 2015` 
 __Outreach Coordinator__, Indiana University Department of Astronomy. _Duties:_ manage weekly observatory public open houses; coordinate private outreach events; development and presentation of astronomy-related events for annual ScienceFest event.
