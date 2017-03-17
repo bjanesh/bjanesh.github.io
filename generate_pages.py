@@ -222,7 +222,7 @@ with open('uchvc-db.md', 'w+') as f:
     print >> f, "--- "
     # print >> f, "![props](props.png)"
     print >> f, '<table>'
-    print >> f, "<tr><td>Name</td><td>Season</td><td>Observed</td>td>Processed</td><td>RA</td><td>Dec</td><td>cz</td><td>abar</td><td>log MHI</td><td>log NHI</td></tr>"
+    print >> f, "<tr><td>Name</td><td>Season</td><td>Observed</td><td>Processed</td><td>RA</td><td>Dec</td><td>cz</td><td>abar</td><td>log MHI</td><td>log NHI</td></tr>"
     # print >> f, "|---:|------|---|---|"
     for i in range(len(name)):
         if wiyn_obs[i]=='complete':

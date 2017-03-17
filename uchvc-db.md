@@ -3,7 +3,7 @@ layout: page
 title: uchvc-db
 --- 
 <table>
-<tr><td>Name</td><td>Season</td><td>Observed</td>td>Processed</td><td>RA</td><td>Dec</td><td>cz</td><td>abar</td><td>log MHI</td><td>log NHI</td></tr>
+<tr><td>Name</td><td>Season</td><td>Observed</td><td>Processed</td><td>RA</td><td>Dec</td><td>cz</td><td>abar</td><td>log MHI</td><td>log NHI</td></tr>
 <tr class="notobs"><td><a href="/uchvc-db/agc102992">AGC102992</a></td><td>Fall</td><td>no</td><td></td><td>00h52m06.2s</td><td>+29d12m04s</td><td> -177</td><td>15.49</td><td> 5.48</td><td> 18.37</td></tr>
 <tr class="yesobs"><td><a href="/uchvc-db/agc102994">AGC102994</a></td><td>Fall</td><td>complete</td><td></td><td>00h54m31.6s</td><td>+29d24m02s</td><td> -290</td><td> 5.48</td><td> 5.20</td><td> 18.99</td></tr>
 <tr class="notobs"><td><a href="/uchvc-db/agc103417">AGC103417</a></td><td>Fall</td><td>no</td><td></td><td>00h05m54.3s</td><td>+31d20m14s</td><td> -128</td><td>20.12</td><td> 5.74</td><td> 18.40</td></tr>
