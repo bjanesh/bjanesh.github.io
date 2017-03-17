@@ -42,6 +42,7 @@ __Associate Instructor__, Indiana University Department of Astronomy. _Duties:_ 
 __Research Assistant__, Case Western Reserve University Department of Astronomy. _Duties:_ in-depth analysis of data from the Sloan Digital Sky Survey; development of statistical techniques and software tools for analysis.
 
 ### Refereed Publications
+__Janesh, W.__, Rhode, K. L., Salzer, J. J., _et al._ 2017, Detection of an Optical Counterpart to the ALFALFA Ultra-compact High-velocity Cloud AGC 249525, _Astrophysical Journal_, 837, L16
 
 __Janesh, W.__, Morrison, H. L., Ma, Z., _et al._ 2016, The SEGUE K Giant Survey. III. Quantifying Galactic Halo Substructure, _Astrophysical Journal_, 816, 80 
 
