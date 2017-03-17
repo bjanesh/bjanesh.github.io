@@ -1,21 +1,21 @@
 AGC102992, Fall  , 00h52m06.2s, +29d12m04s, 18.370,  5.48,  15.49, no
-AGC102994, Fall  , 00h54m31.6s, +29d24m02s, 18.993,  5.20,   5.48, planned
+AGC102994, Fall  , 00h54m31.6s, +29d24m02s, 18.993,  5.20,   5.48, complete
 AGC103417, Fall  , 00h05m54.3s, +31d20m14s, 18.403,  5.74,  20.12, no
 AGC113843, Fall  , 01h10m35.2s, +25d06m01s, 18.492,  5.36,  11.66, no
 AGC114116, Fall  , 01h49m52.1s, +29d26m00s, 18.574,  5.97,  21.54, no
 AGC114117, Fall  , 01h50m31.4s, +28d22m59s, 18.898,  6.02,  15.72, no
 AGC114574, Fall  , 01h17m03.4s, +15d55m48s, 18.712,  5.22,   7.75, no
-AGC122834, Fall  , 02h03m48.8s, +29d13m13s, 19.148,  5.93,  10.58, planned
-AGC122835, Fall  , 02h05m35.5s, +29d13m56s, 19.256,  5.46,   5.48, planned
+AGC122834, Fall  , 02h03m48.8s, +29d13m13s, 19.148,  5.93,  10.58, complete
+AGC122835, Fall  , 02h05m35.5s, +29d13m56s, 19.256,  5.46,   5.48, complete
 AGC122836, Fall  , 02h52m29.7s, +26d26m30s, 18.842,  6.21,  20.86, no
 AGC174540, Fall  , 07h45m59.9s, +14d58m37s, 19.182,  5.69,   7.75, complete
 AGC174763, Fall  , 07h55m27.1s, +24d41m43s, 18.845,  5.82,  13.27, no
-AGC174764, Fall  , 07h56m14.8s, +25d09m00s, 18.762,  5.19,   7.07, planned
+AGC174764, Fall  , 07h56m14.8s, +25d09m00s, 18.762,  5.19,   7.07, complete
 AGC189054, Fall  , 08h25m46.7s, +25d11m28s, 18.498,  5.62,  15.72, no
 AGC198511, Fall  , 09h30m13.2s, +24d12m17s, 18.829,  5.24,   6.93, complete
 AGC198606, Fall  , 09h30m05.5s, +16d39m03s, 19.562,  6.20,   9.00, complete
 AGC208315, Spring, 10h27m01.1s, +08d47m08s, 19.164,  6.07,  12.25, planned
-AGC208524, Spring, 10h47m02.5s, +01d46m31s, 19.073,  5.20,   5.00, planned
+AGC208524, Spring, 10h47m02.5s, +01d46m31s, 19.073,  5.20,   5.00, need g
 AGC215417, Spring, 11h40m08.1s, +15d06m44s, 18.536,  5.22,   9.49, complete
 AGC219214, Spring, 11h09m29.8s, +05d26m01s, 18.943,  5.12,   5.29, planned
 AGC219274, Spring, 11h21m19.6s, +06d21m32s, 18.947,  6.30,  20.49, no
@@ -54,7 +54,7 @@ AGC258241, Spring, 15h08m24.4s, +11d24m22s, 18.619,  5.37,  10.25, planned
 AGC258242, Spring, 15h10m00.6s, +11d11m27s, 18.758,  5.22,   7.35, complete
 AGC258459, Spring, 15h04m41.3s, +06d12m59s, 18.729,  5.50,  10.49, complete
 AGC268067, Spring, 16h05m29.4s, +16d09m12s, 19.142,  5.65,   7.75, planned
-AGC268069, Spring, 16h05m32.6s, +14d59m20s, 19.002,  5.43,   7.07, poor seeing in g?
+AGC268069, Spring, 16h05m32.6s, +14d59m20s, 19.002,  5.43,   7.07, complete
 AGC268070, Spring, 16h07m07.0s, +15d08m31s, 18.626,  5.54,  12.37, no
 AGC268071, Spring, 16h12m36.8s, +14d12m26s, 19.146,  5.80,   9.17, planned
 AGC268072, Spring, 16h17m45.3s, +14d10m36s, 18.982,  5.87,  12.00, no
@@ -71,15 +71,15 @@ AGC333494, Fall  , 23h57m02.1s, +29d48m46s, 18.976,  5.63,   9.17, no
 AGC333604, Fall  , 23h11m23.2s, +27d56m45s, 19.085,  5.61,   7.94, complete
 AGC333613, Fall  , 23h56m58.8s, +29d32m35s, 18.568,  5.11,   8.06, no
 AGC334256, Fall  , 23h00m56.4s, +15d20m14s, 18.896,  5.57,   9.38, no
-AGC334257, Fall  , 23h02m11.3s, +16d00m48s, 18.789,  5.20,   6.93, planned
+AGC334257, Fall  , 23h02m11.3s, +16d00m48s, 18.789,  5.20,   6.93, complete
 AGC501816, Spring, 10h05m19.4s, -00d02m26s, 19.180,  5.60,   7.00, planned
 AGC749140, Fall  , 00h51m16.4s, +15d11m11s, 19.223,  5.50,   5.92, complete
 AGC749141, Fall  , 01h02m37.8s, +16d07m52s, 18.647,  5.28,   8.94, no
 AGC749166, Fall  , 01h59m58.7s, +16d05m25s, 18.975,  5.66,   9.49, no
 HI0106+12, Fall  , 01h06m00.7s, +12d26m57s, 19.069,  5.36,   6.00, complete
-HI0126+05, Fall  , 01h26m21.5s, +05d23m08s, 19.506,  6.06,   8.12, planned
+HI0126+05, Fall  , 01h26m21.5s, +05d23m08s, 19.506,  6.06,   8.12, complete
 HI0810+29, Fall  , 08h10m07.6s, +28d58m35s, 18.662,  5.30,   9.00, no
-HI0932+24, Fall  , 09h32m08.0s, +23d37m52s, 18.571,  5.30,  10.00, poor seeing
+HI0932+24, Fall  , 09h32m08.0s, +23d37m52s, 18.571,  5.30,  10.00, complete
 HI0959+19, Spring, 09h59m11.8s, +18d55m35s, 18.862,  6.00,  16.00, complete
 HI1023+21, Spring, 10h23m09.0s, +20d40m59s, 19.064,  5.60,   8.00, planned
 HI1037+21, Spring, 10h37m06.6s, +20d30m58s, 18.988,  5.80,  11.00, complete
@@ -92,8 +92,8 @@ HI1322+14, Spring, 13h22m23.2s, +14d14m08s, 18.664,  5.20,   8.00, no
 HI1436+17, Spring, 14h35m57.6s, +17d10m04s, 19.064,  5.60,   8.00, poor seeing
 HI1502+19, Spring, 15h01m49.8s, +19d27m01s, 18.962,  5.60,   9.00, no
 HI1523+17, Spring, 15h22m59.6s, +16d42m02s, 18.962,  5.60,   9.00, no
-HI2033+18, Fall  , 20h33m00.7s, +17d35m00s, 19.475,  6.01,   8.00, planned
+HI2033+18, Fall  , 20h33m00.7s, +17d35m00s, 19.475,  6.01,   8.00, complete
 HI2238+02, Fall  , 22h37m47.3s, +02d21m05s, 18.732,  5.39,   9.17, no
-HI2314+03, Fall  , 23h14m16.4s, +03d23m07s, 19.316,  6.27,  13.00, planned
+HI2314+03, Fall  , 23h14m16.4s, +03d23m07s, 19.316,  6.27,  13.00, complete
 HI2323+27, Fall  , 23h22m50.6s, +27d07m18s, 18.651,  5.43,  10.58, no
 HI2355+25, Fall  , 23h55m21.4s, +25d17m26s, 18.851,  5.31,   7.35, complete
