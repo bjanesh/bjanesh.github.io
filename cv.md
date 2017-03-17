@@ -42,7 +42,7 @@ __Associate Instructor__, Indiana University Department of Astronomy. _Duties:_ 
 __Research Assistant__, Case Western Reserve University Department of Astronomy. _Duties:_ in-depth analysis of data from the Sloan Digital Sky Survey; development of statistical techniques and software tools for analysis.
 
 ### Refereed Publications
-__Janesh, W.__, Rhode, K. L., Salzer, J. J., _et al._ 2017, Detection of an Optical Counterpart to the ALFALFA Ultra-compact High-velocity Cloud AGC 249525, _Astrophysical Journal_, 837, L16
+__Janesh, W.__, Rhode, K. L., Salzer, J. J., _et al._ 2017, Detection of an Optical Counterpart to the ALFALFA Ultra-compact High-velocity Cloud AGC 249525, _Astrophysical Journal Letters_, 837, L16
 
 __Janesh, W.__, Morrison, H. L., Ma, Z., _et al._ 2016, The SEGUE K Giant Survey. III. Quantifying Galactic Halo Substructure, _Astrophysical Journal_, 816, 80 
 
@@ -78,7 +78,7 @@ __SEGUE Collaboration Meeting,__ Columbus, OH. _Presentation._ "Metallicity Dist
 _w/_ Heather Morrison, Zhibo Ma, Paul Harding, Connie Rockosi & Jennifer Johnson.
 
 ### Observing Experience
-`21 nights` __Wisconsin-Indiana-Yale-NOAO (WIYN) 3.5m telescope__, Kitt Peak National Observatory. One Degree Imager. April 2014, October 2014, October 2015, April 2016.
+`26 nights` __Wisconsin-Indiana-Yale-NOAO (WIYN) 3.5m telescope__, Kitt Peak National Observatory. One Degree Imager. April 2014, October 2014, October 2015, April 2016, October 2016.
 
 ### Technical skills
 
