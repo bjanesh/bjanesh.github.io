@@ -63,7 +63,7 @@ def getMonths(ra, dec):
 
 # d = np.array([0.25, 1.0, 2.0])
 
-name, altname, hi_coords, cz, w50, size, m_hi, a40, other_obs, wiyn_obs, mis, proc = np.loadtxt('predblist.sort.csv', usecols=(0,1,2,3,4,5,6,7,8,9,10,11), dtype=str, delimiter=',', unpack=True)
+name, altname, hi_coords, cz, w50, size, m_hi, a40, other_obs, wiyn_obs, inst, mis, stacked, proc = np.loadtxt('predblist.sort.csv', usecols=(0,1,2,3,4,5,6,7,8,9,10,11,12,13), dtype=str, delimiter=',', unpack=True)
 
 # get the months the targets are visible
 # parse the hi coords into sensible ra and dec strings
@@ -131,9 +131,9 @@ w50 = w50.astype(float)
 n_hi = np.log10(4.4e20*s21/(abar*abar))
 m_dyn = np.log10(6.2e3*abar*w50*w50)
 
-odisample = [i for i, n in enumerate(name) if (n_hi[i]>=19 or abar[i] <= 7.5 or misb[i] or wiyn_obs[i] == 'complete')]
-odineed = [i for i, n in enumerate(name) if ((n_hi[i]>=19 or abar[i] <= 7.5 or misb[i]) and not wiyn_obs[i] == 'complete')]
-leftovers = [i for i, n in enumerate(name) if not (n_hi[i]>=19 or abar[i] <= 7.5 or misb[i] or wiyn_obs[i] == 'complete')]
+odisample = [i for i, n in enumerate(name) if (n_hi[i]>=19 or abar[i] <= 7.5 or misb[i] or '201' in wiyn_obs[i])]
+odineed = [i for i, n in enumerate(name) if ((n_hi[i]>=19 or abar[i] <= 7.5 or misb[i]) and not '201' in wiyn_obs[i])]
+leftovers = [i for i, n in enumerate(name) if not (n_hi[i]>=19 or abar[i] <= 7.5 or misb[i] or '201' in wiyn_obs[i])]
 print len(odisample), len(leftovers), len(odineed)
 
 month = np.array(mon)[odineed]
@@ -173,8 +173,8 @@ n_w50, bins_w50 = np.histogram(w50, bins=13)
 cmap=colors.ListedColormap(['black','gold','red'])
 # cmap.set_under('black')
 colors = np.empty_like(name, dtype=int)
-have = np.where(wiyn_obs == 'complete')
-ps = [i for i,obs in enumerate(wiyn_obs) if (obs.startswith('poor'))]
+have = [i for i,obs in enumerate(wiyn_obs) if ('201' in obs)]
+ps = [i for i,obs in enumerate(wiyn_obs) if ('poor' in obs)]
 
 colors[:] = 0
 colors[have] = 2
@@ -222,17 +222,17 @@ with open('uchvc-db.md', 'w+') as f:
     print >> f, "--- "
     # print >> f, "![props](props.png)"
     print >> f, '<table>'
-    print >> f, "<tr><td>Name</td><td>Season</td><td>Observed</td><td>Processed</td><td>RA</td><td>Dec</td><td>cz</td><td>abar</td><td>log MHI</td><td>log NHI</td></tr>"
+    print >> f, "<tr><td>Name</td><td>Season</td><td>Observed</td><td>Stacked</td><td>Processed</td><td>RA</td><td>Dec</td><td>cz</td><td>abar</td><td>log MHI</td><td>log NHI</td></tr>"
     # print >> f, "|---:|------|---|---|"
     for i in range(len(name)):
-        if wiyn_obs[i]=='complete':
-            print >> f, '<tr class="yesobs"><td><a href="/uchvc-db/'+altname[i].lower()+'">'+altname[i]+'</a></td><td>'+seas[i]+'</td><td>'+wiyn_obs[i]+'</td><td>'+proc[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td><td>'+'{0:5.0f}'.format(cz[i])+'</td><td>'+'{0:5.2f}'.format(abar[i])+'</td><td>'+'{0:5.2f}'.format(m_hi[i])+'</td><td>'+'{0:6.2f}'.format(n_hi[i])+'</td></tr>'
+        if '201' in wiyn_obs[i]:
+            print >> f, '<tr class="yesobs"><td><a href="/uchvc-db/'+altname[i].lower()+'">'+altname[i]+'</a></td><td>'+seas[i]+'</td><td>'+wiyn_obs[i]+'</td><td>'+inst[i]+'</td><td>'+stacked[i]+'</td><td>'+proc[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td><td>'+'{0:5.0f}'.format(cz[i])+'</td><td>'+'{0:5.2f}'.format(abar[i])+'</td><td>'+'{0:5.2f}'.format(m_hi[i])+'</td><td>'+'{0:6.2f}'.format(n_hi[i])+'</td></tr>'
         elif wiyn_obs[i]=='no':
-            print >> f, '<tr class="notobs"><td><a href="/uchvc-db/'+altname[i].lower()+'">'+altname[i]+'</a></td><td>'+seas[i]+'</td><td>'+wiyn_obs[i]+'</td><td>'+proc[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td><td>'+'{0:5.0f}'.format(cz[i])+'</td><td>'+'{0:5.2f}'.format(abar[i])+'</td><td>'+'{0:5.2f}'.format(m_hi[i])+'</td><td>'+'{0:6.2f}'.format(n_hi[i])+'</td></tr>'
+            print >> f, '<tr class="notobs"><td><a href="/uchvc-db/'+altname[i].lower()+'">'+altname[i]+'</a></td><td>'+seas[i]+'</td><td>'+wiyn_obs[i]+'</td><td>'+inst[i]+'</td><td>'+stacked[i]+'</td><td>'+proc[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td><td>'+'{0:5.0f}'.format(cz[i])+'</td><td>'+'{0:5.2f}'.format(abar[i])+'</td><td>'+'{0:5.2f}'.format(m_hi[i])+'</td><td>'+'{0:6.2f}'.format(n_hi[i])+'</td></tr>'
         elif wiyn_obs[i]=='planned':
-            print >> f, '<tr class="planobs"><td><a href="/uchvc-db/'+altname[i].lower()+'">'+altname[i]+'</a></td><td>'+seas[i]+'</td><td>'+wiyn_obs[i]+'</td><td>'+proc[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td><td>'+'{0:5.0f}'.format(cz[i])+'</td><td>'+'{0:5.2f}'.format(abar[i])+'</td><td>'+'{0:5.2f}'.format(m_hi[i])+'</td><td>'+'{0:6.2f}'.format(n_hi[i])+'</td></tr>'
+            print >> f, '<tr class="planobs"><td><a href="/uchvc-db/'+altname[i].lower()+'">'+altname[i]+'</a></td><td>'+seas[i]+'</td><td>'+wiyn_obs[i]+'</td><td>'+inst[i]+'</td><td>'+stacked[i]+'</td><td>'+proc[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td><td>'+'{0:5.0f}'.format(cz[i])+'</td><td>'+'{0:5.2f}'.format(abar[i])+'</td><td>'+'{0:5.2f}'.format(m_hi[i])+'</td><td>'+'{0:6.2f}'.format(n_hi[i])+'</td></tr>'
         elif 'poor' in wiyn_obs[i]:
-            print >> f, '<tr class="poorobs"><td><a href="/uchvc-db/'+altname[i].lower()+'">'+altname[i]+'</a></td><td>'+seas[i]+'</td><td>'+wiyn_obs[i]+'</td><td>'+proc[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td><td>'+'{0:5.0f}'.format(cz[i])+'</td><td>'+'{0:5.2f}'.format(abar[i])+'</td><td>'+'{0:5.2f}'.format(m_hi[i])+'</td><td>'+'{0:6.2f}'.format(n_hi[i])+'</td></tr>' 
+            print >> f, '<tr class="poorobs"><td><a href="/uchvc-db/'+altname[i].lower()+'">'+altname[i]+'</a></td><td>'+seas[i]+'</td><td>'+wiyn_obs[i]+'</td><td>'+inst[i]+'</td><td>'+stacked[i]+'</td><td>'+proc[i]+'</td><td>'+ra[i]+'</td><td>'+dec[i]+'</td><td>'+'{0:5.0f}'.format(cz[i])+'</td><td>'+'{0:5.2f}'.format(abar[i])+'</td><td>'+'{0:5.2f}'.format(m_hi[i])+'</td><td>'+'{0:6.2f}'.format(n_hi[i])+'</td></tr>' 
         with open('uchvc-db/'+altname[i].lower()+'.md','w+') as md:
             print >> md, "---"
             print >> md, "layout: page"
