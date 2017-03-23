@@ -222,7 +222,7 @@ with open('uchvc-db.md', 'w+') as f:
     print >> f, "--- "
     # print >> f, "![props](props.png)"
     print >> f, '<table>'
-    print >> f, "<tr><td>Name</td><td>Season</td><td>Observed</td><td>Stacked</td><td>Processed</td><td>RA</td><td>Dec</td><td>cz</td><td>abar</td><td>log MHI</td><td>log NHI</td></tr>"
+    print >> f, "<tr><td>Name</td><td>Season</td><td>Observed</td><td>Inst</td><td>Stacked</td><td>Processed</td><td>RA</td><td>Dec</td><td>cz</td><td>abar</td><td>log MHI</td><td>log NHI</td></tr>"
     # print >> f, "|---:|------|---|---|"
     for i in range(len(name)):
         if '201' in wiyn_obs[i]:
