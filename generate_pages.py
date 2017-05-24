@@ -8,56 +8,46 @@ import matplotlib.colors as colors
 # plt.rc('font', family='serif', serif='New Century Schoolbook')
 
 def getMonths(ra, dec):
-    from astropysics.coords import AngularCoordinate, FK5Coordinates
-    from astropysics.obstools import Site
-    import astropysics.obstools as astobs
+    from astropy import units as u
+    from astropy.time import Time
+    from astropy.coordinates import SkyCoord, EarthLocation, AltAz, get_sun, FK5
+    from datetime import datetime
+    fk5 = SkyCoord(ra, dec, frame='fk5')
+    # fk5c = SkyCoord(ra, dec, frame='fk5')
+    # print fk5c
+     # same as SkyCoord.from_name('M33'): use the explicit coordinates to allow building doc plots w/o internet
+    kpno = EarthLocation.of_site('kpno')
+    utcoffset = -7*u.hour  # Mountain Standard Time
 
-    # name, ra, dec = np.loadtxt('coords.dat', usecols=(0,1,2), dtype=str, unpack=True)
+    delta_midnight = np.linspace(-5, 5,11)*u.hour
 
-    kpnolat = AngularCoordinate('+31d57m12s')
-    kpnolong = AngularCoordinate('-7h26m28.00s')
-    kpnoelev = 2096.0
-    kpnooffs = -7
-
-    kpno = Site(kpnolat, kpnolong, alt=kpnoelev, tz=kpnooffs, name='KPNO')
     months = np.array([1,2,3,4,5,6,7,8,9,10,11,12])
-    days = np.array([7.0, 14.0, 21.0, 28.0])
+    days = np.array([7, 14, 21, 28])
     monthDict = {1:'Jan', 2:'Feb', 3:'Mar', 4:'Apr', 5:'May', 6:'Jun', 7:'Jul', 8:'Aug', 9:'Sep', 10:'Oct', 11:'Nov', 12:'Dec'}
-
-    coords = FK5Coordinates(ra,dec)
     monthBool = []
     for m in months:
         upMonth = [False, False, False, False]
         for j,day in enumerate(days):
-            jd = astobs.calendar_to_jd((2016.0, float(m), day), tz=-7)
-            r,s,t = kpno.riseSetTransit(coords, date=jd, alt=42.0)
-            # print monthDict[m], day, r,s,t
-            if r > 20.0 and s <= 8.0:
-                nightHours = (24.0-r)+s
-            elif 8.0 <= r <= 20.0 and s <= 8.0:
-                nightHours = 4.0+s
-            elif r > 20.0 and s >= 8.0:
-                nightHours = (24.0-r)+8.0
-            elif r <= 20.0 and s >= 20.0:
-                nightHours = s-20.0
-            elif 20.0 < r < s:
-                nightHours = s-r
-            elif r < s < 8.0:
-                nightHours = s-r
-            elif r <= 8.0 :
-                nightHours = 8.0-r
-            else :
-                nightHours = 0.0
-            if nightHours >= 2.50:
-                upNight = True
+            t = datetime(2017, m, day, 00, 00, 00)
+            midnight = Time(t) - utcoffset
+            times = midnight + delta_midnight
+            # print times
+            altazframe = AltAz(obstime=times, location=kpno)
+            # sunaltazs = get_sun(times).transform_to(altazframe)
+            fk5altazs = fk5.transform_to(altazframe)
+            am = fk5altazs.secz
+            # print am
+            up = np.where((am < 1.5) & (am > 1.0))
+            # print len(up[0])
+            if len(up[0]) >= 3:
                 upMonth[j] = True
-            else:
-                upNight = False
-        monthBool.append(all(upMonth))
-    # print monthBool
-    obsmonths = []
-    for m in months[np.where(monthBool)]:
-        obsmonths.append(monthDict[m])
+        # print upMonth
+        if any(upMonth):
+            monthBool.append(True)
+        else:
+            monthBool.append(False)
+    monthBool = np.array(monthBool)
+    obsmonths = months[monthBool]
     return obsmonths
 
 
@@ -80,11 +70,12 @@ for i,c in enumerate(hi_coords):
     dec.append(d)
     # print altname[i], ra, dec
     mnth = getMonths(r, d)
+    # print mnth
     mon.append(mnth)
-    if 'Sep' in mnth or 'Oct' in mnth:
+    if 9 in mnth or 10 in mnth:
         season = 'Fall'
         seas.append(season)
-    elif 'Mar' in mnth or 'Apr' in mnth:
+    elif 3 in mnth or 4 in mnth:
         season = 'Spring'
         seas.append(season)
 ra = np.array(ra)
@@ -145,9 +136,9 @@ abar_new = abar[odineed]
 mhi_new = m_hi[odineed]
 with open('need_these.list', 'w+') as f:
     for i,n in enumerate(altname[odineed]):
-        if 'Sep' in month[i] or 'Oct' in month[i]:
+        if 9 in month[i] or 10 in month[i]:
             season = 'Fall'
-        elif 'Mar' in month[i] or 'Apr' in month[i]:
+        elif 3 in month[i] or 4 in month[i]:
             season = 'Spring'
 
         print >> f, '{0:9s} {1:6s} {2:s} {3:s} {4:6.3f} {5:5.2f} {6:6.2f} {7:s}'.format(n, season, ra_new[i], dec_new[i], nhi_new[i], mhi_new[i], abar_new[i], obs[i])
